@@ -1,0 +1,30 @@
+# Anchor
+.anchor
+target/
+node_modules/
+test-ledger/
+.DS_Store
+
+# IDL
+*.so
+*.json
+
+# Rust
+**/*.rs.bk
+Cargo.lock
+
+# TypeScript
+dist/
+*.log
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

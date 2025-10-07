@@ -1,0 +1,20 @@
+[package]
+name = "damm-v2-fee-distributor"
+version = "0.1.0"
+description = "DAMM v2 Honorary Quote-Only Fee Position + 24h Distribution Crank"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "damm_v2_fee_distributor"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
